@@ -1,0 +1,19 @@
+body {
+    background-color: darkgray;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+button {
+    background-color: #D6D2BC;
+    color: #000000;
+    font-family: 'Special Elite', cursive;
+    text-transform: uppercase;
+    padding: 15px 20px 11px 20px;
+    border: 5px solid #211f1f;
+    border-radius: 2px;
+}
