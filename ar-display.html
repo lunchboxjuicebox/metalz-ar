@@ -9,15 +9,22 @@
 </head>
 <body style='margin : 0px; overflow: hidden;'>
     <a-scene embedded arjs>
-        
-        <!-- define your gltf asset -->
-        <a-entity gltf-model="url(https://raw.githubusercontent.com/akashkuttappa/armodels/master/models/busterDrone.gltf)"></a-entity>
 
-        <!-- define a camera which will move according to the marker position -->
-        <!-- <a-marker-camera preset='hiro'></a-marker-camera> -->
+        <a-marker-camera preset='custom' type='pattern' url='https://raw.githubusercontent.com/lunchboxjuicebox/metalz-ar/master/metalz-marker.patt'>
+            <!-- define your gltf asset -->
+            <!-- <a-entity gltf-model="url(https://raw.githubusercontent.com/akashkuttappa/armodels/master/models/busterDrone.gltf)"></a-entity> -->
+            <a-entity gltf-model="url(https://raw.githubusercontent.com/lunchboxjuicebox/metalz-ar/master/cwtshaft.gltf)"></a-entity>
+
+            <!-- define your gltf asset -->
+            <!-- <a-assets>
+                <a-asset-item id="tree" src="https://raw.githubusercontent.com/lunchboxjuicebox/metalz-ar/master/cwtshaft.gltf"></a-asset-item>
+            </a-assets> -->
+            <!-- use your gltf model -->
+            <!-- <a-entity gltf-model="#tree"></a-entity> -->
+        </a-marker-camera>
         
-        <a-marker-camera preset='pattern' type='pattern' url='https://raw.githubusercontent.com/lunchboxjuicebox/metalz-ar/master/pattern-marker1.patt'></a-marker-camera>
         
+
     </a-scene>
 </body>
 </html>
