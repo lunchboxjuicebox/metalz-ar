@@ -1,369 +1,118 @@
 {
-    "asset": {
-        "version": "2.0",
-        "generator": "Open Asset Import Library (assimp v5.0.5eb040c7)"
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.2.75",
+        "version" : "2.0"
     },
-    "accessors": [
+    "scene" : 0,
+    "scenes" : [
         {
-            "bufferView": 0,
-            "byteOffset": 0,
-            "componentType": 5126,
-            "count": 1260,
-            "type": "VEC3",
-            "max": [
-                0.0,
-                9.3525972366333,
-                5.370999813079834
-            ],
-            "min": [
-                -48.93899917602539,
-                -6.209199905395508,
-                -13.11404800415039
-            ]
-        },
-        {
-            "bufferView": 1,
-            "byteOffset": 0,
-            "componentType": 5126,
-            "count": 1260,
-            "type": "VEC3",
-            "max": [
-                1.0,
-                1.0,
-                1.0
-            ],
-            "min": [
-                -1.0,
-                -1.0,
-                -1.0
-            ]
-        },
-        {
-            "bufferView": 2,
-            "byteOffset": 0,
-            "componentType": 5126,
-            "count": 1260,
-            "type": "VEC2",
-            "max": [
-                0.11969500035047531,
-                2.6027119159698488
-            ],
-            "min": [
-                -2.7363228797912599,
-                -0.6027119159698486
-            ]
-        },
-        {
-            "bufferView": 3,
-            "byteOffset": 0,
-            "componentType": 5125,
-            "count": 4362,
-            "type": "SCALAR",
-            "max": [
-                1259
-            ],
-            "min": [
-                0
-            ]
-        },
-        {
-            "bufferView": 4,
-            "byteOffset": 0,
-            "componentType": 5126,
-            "count": 50,
-            "type": "VEC3",
-            "max": [
-                -52.2400016784668,
-                0.800000011920929,
-                1.649999976158142
-            ],
-            "min": [
-                -62.400001525878909,
-                -2.5,
-                -1.649999976158142
-            ]
-        },
-        {
-            "bufferView": 5,
-            "byteOffset": 0,
-            "componentType": 5126,
-            "count": 50,
-            "type": "VEC3",
-            "max": [
-                -0.0,
-                1.0,
-                1.0
-            ],
-            "min": [
-                -0.0,
-                -1.0,
-                -1.0
-            ]
-        },
-        {
-            "bufferView": 6,
-            "byteOffset": 0,
-            "componentType": 5126,
-            "count": 50,
-            "type": "VEC2",
-            "max": [
-                0.0,
-                1.5183629989624024
-            ],
-            "min": [
-                -1.0160000324249268,
-                0.48163700103759768
-            ]
-        },
-        {
-            "bufferView": 7,
-            "byteOffset": 0,
-            "componentType": 5125,
-            "count": 144,
-            "type": "SCALAR",
-            "max": [
-                49
-            ],
-            "min": [
-                0
-            ]
-        },
-        {
-            "bufferView": 8,
-            "byteOffset": 0,
-            "componentType": 5126,
-            "count": 4265,
-            "type": "VEC3",
-            "max": [
-                0.0,
-                15.875,
-                13.11404800415039
-            ],
-            "min": [
-                -62.400001525878909,
-                -7.302499771118164,
-                -13.11404800415039
-            ]
-        },
-        {
-            "bufferView": 9,
-            "byteOffset": 0,
-            "componentType": 5126,
-            "count": 4265,
-            "type": "VEC3",
-            "max": [
-                1.0,
-                1.0,
-                1.0
-            ],
-            "min": [
-                -1.0,
-                -1.0,
-                -1.0
-            ]
-        },
-        {
-            "bufferView": 10,
-            "byteOffset": 0,
-            "componentType": 5126,
-            "count": 4265,
-            "type": "VEC2",
-            "max": [
-                6.385222911834717,
-                6.079999923706055
-            ],
-            "min": [
-                -6.463432788848877,
-                -19.297969818115236
-            ]
-        },
-        {
-            "bufferView": 11,
-            "byteOffset": 0,
-            "componentType": 5125,
-            "count": 14052,
-            "type": "SCALAR",
-            "max": [
-                4264
-            ],
-            "min": [
-                0
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
             ]
         }
     ],
-    "buffers": [
+    "nodes" : [
         {
-            "byteLength": 252632,
-            "uri": "result.bin"
+            "name" : "Light",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "translation" : [
+                4.076245307922363,
+                5.903861999511719,
+                -1.0054539442062378
+            ]
+        },
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.483536034822464,
+                0.33687159419059753,
+                -0.20870360732078552,
+                0.7804827094078064
+            ],
+            "translation" : [
+                7.358891487121582,
+                4.958309173583984,
+                6.925790786743164
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "cwtshaftSTL"
         }
     ],
-    "bufferViews": [
+    "meshes" : [
         {
-            "buffer": 0,
-            "byteOffset": 0,
-            "byteLength": 15120,
-            "target": 34962
-        },
-        {
-            "buffer": 0,
-            "byteOffset": 15120,
-            "byteLength": 15120,
-            "target": 34962
-        },
-        {
-            "buffer": 0,
-            "byteOffset": 30240,
-            "byteLength": 10080,
-            "target": 34962
-        },
-        {
-            "buffer": 0,
-            "byteOffset": 40320,
-            "byteLength": 17448,
-            "target": 34963
-        },
-        {
-            "buffer": 0,
-            "byteOffset": 57768,
-            "byteLength": 600,
-            "target": 34962
-        },
-        {
-            "buffer": 0,
-            "byteOffset": 58368,
-            "byteLength": 600,
-            "target": 34962
-        },
-        {
-            "buffer": 0,
-            "byteOffset": 58968,
-            "byteLength": 400,
-            "target": 34962
-        },
-        {
-            "buffer": 0,
-            "byteOffset": 59368,
-            "byteLength": 576,
-            "target": 34963
-        },
-        {
-            "buffer": 0,
-            "byteOffset": 59944,
-            "byteLength": 51180,
-            "target": 34962
-        },
-        {
-            "buffer": 0,
-            "byteOffset": 111124,
-            "byteLength": 51180,
-            "target": 34962
-        },
-        {
-            "buffer": 0,
-            "byteOffset": 162304,
-            "byteLength": 34120,
-            "target": 34962
-        },
-        {
-            "buffer": 0,
-            "byteOffset": 196424,
-            "byteLength": 56208,
-            "target": 34963
-        }
-    ],
-    "materials": [
-        {
-            "name": "DefaultMaterial",
-            "pbrMetallicRoughness": {
-                "baseColorFactor": [
-                    0.6000000238418579,
-                    0.6000000238418579,
-                    0.6000000238418579,
-                    1.0
-                ],
-                "metallicFactor": 0.0
-            }
-        },
-        {
-            "name": "Opaque(135,140,140)",
-            "pbrMetallicRoughness": {
-                "baseColorFactor": [
-                    0.6000000238418579,
-                    0.6000000238418579,
-                    0.6000000238418579,
-                    1.0
-                ],
-                "metallicFactor": 0.0
-            }
-        },
-        {
-            "name": "Opaque(135,205,255)",
-            "pbrMetallicRoughness": {
-                "baseColorFactor": [
-                    0.6000000238418579,
-                    0.6000000238418579,
-                    0.6000000238418579,
-                    1.0
-                ],
-                "metallicFactor": 0.0
-            }
-        }
-    ],
-    "meshes": [
-        {
-            "name": "Body1",
-            "primitives": [
+            "name" : "cwtshaftSTL",
+            "primitives" : [
                 {
-                    "mode": 4,
-                    "material": 1,
-                    "indices": 3,
-                    "attributes": {
-                        "POSITION": 0,
-                        "NORMAL": 1,
-                        "TEXCOORD_0": 2
-                    }
-                },
-                {
-                    "mode": 4,
-                    "material": 2,
-                    "indices": 7,
-                    "attributes": {
-                        "POSITION": 4,
-                        "NORMAL": 5,
-                        "TEXCOORD_0": 6
-                    }
-                },
-                {
-                    "mode": 4,
-                    "material": 1,
-                    "indices": 11,
-                    "attributes": {
-                        "POSITION": 8,
-                        "NORMAL": 9,
-                        "TEXCOORD_0": 10
-                    }
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2
                 }
             ]
         }
     ],
-    "nodes": [
+    "accessors" : [
         {
-            "name": "input.obj",
-            "children": [
-                1
-            ]
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 34100,
+            "max" : [
+                1.0835120178853686e-07,
+                13.11404800415039,
+                7.299727439880371
+            ],
+            "min" : [
+                -62.400001525878906,
+                -13.11404800415039,
+                -15.863759994506836
+            ],
+            "type" : "VEC3"
         },
         {
-            "name": "Body1",
-            "mesh": 0
-        }
-    ],
-    "scenes": [
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 34100,
+            "type" : "VEC3"
+        },
         {
-            "nodes": [
-                0
-            ]
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 36174,
+            "type" : "SCALAR"
         }
     ],
-    "scene": 0
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 409200,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 409200,
+            "byteOffset" : 409200
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 72348,
+            "byteOffset" : 818400
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 890748,
+            "uri" : "cwtshaft.bin"
+        }
+    ]
 }
