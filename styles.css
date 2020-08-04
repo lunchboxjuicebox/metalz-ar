@@ -27,7 +27,8 @@ div {
 }
 
 #arjsDebugUIContainer > div:nth-child(2) > span,
-#arjsDebugUIContainer > div:nth-child(1) {
+#arjsDebugUIContainer > div:nth-child(1),
+#arjsDebugUIContainer > div:nth-child(2) {
     display: none !important;
     background-color: rgb(127 127 127 / 0%) !important;
 }
